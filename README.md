@@ -1,8 +1,8 @@
 # Operability between Objective-C and C++ using CMake
 
-Something, when targeting macOS, you want to call an Objective-C method (e.g., from Cocoa) from your C++ code.
+Sometimes, when targeting macOS, you want to call an Objective-C method (e.g., from Cocoa) from your C++ code.
 
-This little test project try to do that.
+Here is a minimal test project that does just that.
 
 ## Dependencies
 
@@ -19,4 +19,16 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
+```
+
+## How to run
+
+```
+./HelloWorld
+```
+
+Output:
+
+```
+2023-03-28 19:37:46.970 HelloWorld[10606:200462] Hello, World!
 ```
